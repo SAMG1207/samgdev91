@@ -1,0 +1,59 @@
+
+.fira-sans-thin, h4 {
+    font-family: "Fira Sans", sans-serif;
+    /* font-weight: 100; */
+    font-style: normal;
+  }
+
+  body {
+    background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
+    overflow-y: auto;/* Agrega scroll vertical si el contenido excede el tamaño del contenedor */
+    min-height: 100vh; /* Asegura que el lado izquierdo ocupe toda la altura de la pantalla */
+    background-repeat: no-repeat;
+}
+
+
+img{
+    height: 300px;
+}
+
+.non-visible>p{
+    font-weight: bold;
+}
+
+h1.fira-sans-thin{
+    font-weight:300;
+}
+#imagen 
+    {
+        position:relative;
+        background-image: url('smile1.png');
+        background-size: contain;
+        background-position: center top; /* Alinea la imagen en el centro vertical */
+        height: 500px; /* Ajusta el tamaño del contenedor según sea necesario */
+        z-index: 0;
+        background-repeat: no-repeat;
+        transition: background-image 0.8s ease;
+        padding-top: 10%; /* Ajusta el espacio para las letras debajo de la imagen */
+    }
+    
+
+.leftArrow, .rightArrow{
+    position: absolute;
+    height: 100px;
+    cursor: pointer;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.leftArrow{
+    left:0;
+}
+
+.rightArrow{
+    right:0;
+}
+
+.image-container{
+    position:relative;
+}
